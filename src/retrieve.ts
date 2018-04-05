@@ -19,7 +19,7 @@ module.exports = (context: any, input: any) => {
   context.done(null, {
     res: {
       status: 200,
-      body: zlib.gunzipSync(zippedData).toString('utf8'),
+      body: JSON.parse(zlib.gunzipSync(zippedData).toString('utf8')),
     },
   });
 };

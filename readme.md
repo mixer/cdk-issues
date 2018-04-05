@@ -46,3 +46,9 @@ Content-Type: application/json; charset=utf-8
 
 "foo"
 ```
+
+### Internal Notes
+
+To retrieve info about an issue, set the `CDK_ISSUE_KEY` to the auth key for the Azure function. Run `node unlock` and follow the prompts to retrieve data associated with an issue. [`direnv`](https://direnv.net/) is great.
+
+Deployment is copy-pasting built code into the UI for now. We'll automate it when this repo goes public.
