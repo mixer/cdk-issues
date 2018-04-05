@@ -1,0 +1,21 @@
+{
+  "name": "cdk-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "prettier --write \"src/**/*.ts\""
+  },
+  "author": "Connor Peet <connor@peet.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.6.2",
+    "prettier": "^1.11.1",
+    "typescript": "^2.8.1"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "printWidth": 100
+  }
+}
